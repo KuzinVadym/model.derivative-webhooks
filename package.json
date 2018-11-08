@@ -1,0 +1,30 @@
+{
+  "name": "model.derivative-webhooks-nodejs-google.drive",
+  "version": "1.0.0",
+  "description": "Transparent use of Model Derivative Webhooks with node.js for view Box compatible files.",
+  "dependencies": {
+    "body-parser": "*",
+   "bootstrap": "3.4.0",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "forge-apis": "0.4.3",
+    "googleapis": "19.0.0",
+    "jquery": "3.2.1",
+    "jstree": "3.3.4",
+    "moment": "2.19.4",
+    "request": "*",
+    "serve-favicon": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/autodesk-forge/model.derivative-webhooks-nodejs-google.drive"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production node start.js",
+    "dev": "node start.js",
+    "nodemon": "nodemon start.js --ignore www/"
+  },
+  "author": "Vadym Kuzin (Forge Partner Development)",
+  "license": "MIT"
+}
