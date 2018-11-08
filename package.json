@@ -4,7 +4,7 @@
   "description": "Transparent use of Model Derivative Webhooks with node.js for view Box compatible files.",
   "dependencies": {
     "body-parser": "*",
-   "bootstrap": "3.4.0",
+    "bootstrap": "3.3.7",
     "cookie-parser": "*",
     "express": "*",
     "express-session": "*",
