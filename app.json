@@ -1,7 +1,7 @@
 {
   "name": "model.derivative-webhooks",
   "description": "Transparent use of Model Derivative to view Box compatible files.",
-  "repository": "https://github.com/KuzinVadym/model.derivative-webhooks-nodejs-google.drive",
+  "repository": "https://github.com/KuzinVadym/model.derivative-webhooks.git",
   "logo": "https://avatars0.githubusercontent.com/u/8017462?v=3&s=200",
   "keywords": [
     "express",
@@ -18,7 +18,8 @@
       "description": "Forge Client Secret"
     },
     "FORGE_CALLBACK_URL": {
-      "description": "Forge Callback Url"
+      "description": "Forge Callback Url",
+      "value": "https://<<YOUR HEROKU APP NAME HERE>>.herokuapp.com/api/forge/callback/oauth"
     },
     "GOOGLE_CLIENT_ID": {
       "description": "Google Client ID"
