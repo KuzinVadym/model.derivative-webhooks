@@ -24,7 +24,7 @@ This sample use [Model Derivative API](https://developer.autodesk.com/en/docs/mo
 
 ## Live version
 
-See it live at [forgegoogledriveviewer.herokuapp.com](http://forgegoogledriveviewer.herokuapp.com/).
+See it live at [modelderivativewebhooks.herokuapp.com](https://modelderivativewebhooks.herokuapp.com/).
 
 ## Industry background
 
@@ -85,9 +85,10 @@ Open the browser: [http://localhost:3000](http://localhost:3000).
 
 For quick testing webhooks and checking webhooks payload after posting job you can use
 ```
-https://webhook.site/
+https://webhook.site/#/<ID>
 ```
-as Web-Hook identifire in process of web hook creation.
+as Web-Hook identifire in process of web hook creation. 
+This is good alternative for quick tests, maybe some of you used ngrok before for testing webhooks with websockets, but for just for checking payload or status this is nice variante.
 
 ### WebHook workflow (important!)
 
